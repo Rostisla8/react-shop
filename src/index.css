@@ -1,0 +1,183 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(249, 226, 244);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.main__wrapper{
+  display: flex;
+}
+
+.navbar{
+  margin-bottom: 10px;
+}
+
+.navbar_wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px 10px 50px;
+  align-content: center;
+  align-items: center;
+}
+
+
+.navbar__logo{
+  list-style: none;
+  text-decoration: none;
+  color:deeppink;
+  font-size: 51px;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(244, 0, 0);
+}
+
+.content_wrapper{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+}
+
+.asside_pannel{
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-right: 30px;
+}
+
+.categorys_content{
+  text-align: center;
+  background-color: rgb(243, 189, 234);
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.category_title{
+  font-size: 32px;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px black;
+  color:rgb(252, 18, 143);
+}
+
+.category_item{
+  display: block;
+  list-style: none;
+  margin:15px 0 15px 0;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px rgb(119, 119, 119);
+  color:rgb(13, 13, 13);
+}
+
+ul a{
+  text-decoration: none;
+}
+
+
+
+.card_img{
+  width: 250px;
+  height: 230px;
+  border-radius: 5px 5px 0 0 ;
+}
+
+.gameCard{
+  width: 250px;
+  background-color: rgb(247, 208, 232);
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 3px 3px 3px rgb(202, 181, 201);
+  text-shadow: 1px 1px 2px rgb(190, 190, 190);
+  padding-bottom: 10px;
+}
+.gameCard__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  align-content: space-between;
+  
+}
+
+.card_button{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(252, 18, 143);
+  background-color: rgb(218, 161, 196);
+  margin-left: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+  cursor: pointer;
+}
+.card_button_active{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(14, 14, 14);
+  background-color: rgb(155, 153, 154);
+  margin-left: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+  cursor: pointer;
+}
+
+.card_button:hover ,.card_button_active:hover{
+  box-shadow: 1px 1px 3px 3px  rgb(135, 135, 135);
+}
+
+.card__price{
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px rgb(119, 119, 119);
+  color:rgb(13, 13, 13);
+  width: 150px;
+  margin-left: 20px;
+}
+
+.navbar__basket{
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circle{
+  position: absolute;
+  top:20px;
+  left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 100px;
+  background-color: rgb(230, 170, 224);
+}
+
+
+
